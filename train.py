@@ -17,7 +17,7 @@ torch.backends.cudnn.benchmark = False
 #CUDA_DEVICES = args.cuda_devices
 #DATASET_ROOT = args.path
 CUDA_DEVICES = 0
-DATASET_ROOT = 'C:/Users/yuan/machine learing/intel-image-classification/seg_train'
+DATASET_ROOT = './seg_train'
 
 def train():
 	data_transform = transforms.Compose([
